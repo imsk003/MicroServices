@@ -1,4 +1,4 @@
-package sk.learning.rest.webservices;
+package sk.learning.rest.webservices.helloworld;
 
 public class HelloWorldBean {
 	private String message;
