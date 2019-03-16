@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class LimitsConfigController {
 	
 	@Autowired
-	private Configuration configuraion; 
+	private Configuration configuration; 
 	
 	@GetMapping("/limits")
 	public LimitConfig retrieveLimitsFromConfig() {
-		return new LimitConfig(configuraion.getMaximum(),configuraion.getMinimum());	
+		return new LimitConfig(configuration.getMaximum(),configuration.getMinimum());	
 	}
 }
