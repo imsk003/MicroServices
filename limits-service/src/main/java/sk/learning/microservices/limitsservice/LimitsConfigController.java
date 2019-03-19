@@ -24,6 +24,6 @@ public class LimitsConfigController {
 	}
 	
 	public LimitConfig fallbackMethodConfig() {
-		return  new LimitConfig(6,600);	
+		return  new LimitConfig(600,6);	
 	}
 }
